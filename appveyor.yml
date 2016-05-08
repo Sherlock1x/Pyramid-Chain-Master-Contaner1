@@ -1,0 +1,10 @@
+Configuration: Release
+
+# restore Nu Get packages before running MSBuild
+before build:
+  -nuget restore
+  
+# package Web Application project for Web Deploy
+build:
+  verbosity: minimal
+  publish _wap: true

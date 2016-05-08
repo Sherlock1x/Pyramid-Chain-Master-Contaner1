@@ -1,6 +1,6 @@
-#Python 5th Edition
 
-#Pg.634/1540 PartIV, Chapter21/41
+
+
 #Timing Script
 #File timeseqs.py "Test the relative speed of iteration tool alternatives"
 

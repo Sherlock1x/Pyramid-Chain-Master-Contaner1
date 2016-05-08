@@ -1,0 +1,29 @@
+version: 1.0.{build}
+init:
+- cmd: 
+clone_script:
+- cmd: 
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}1.000'
+  assembly_file_version: '{version}1.000'
+  assembly_informational_version: '{version}1.000'
+install:
+- cmd: 
+build:
+  verbosity: minimal
+before_test:
+- cmd: 
+after_test:
+- cmd: 
+before_deploy:
+- cmd: 
+after_deploy:
+- cmd: 
+on_success:
+- cmd: 
+on_failure:
+- cmd: 
+on_finish:
+- cmd: 

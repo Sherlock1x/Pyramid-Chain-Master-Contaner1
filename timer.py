@@ -1,5 +1,5 @@
 
-#Pg.630/1540 
+
 #File timer.py
 """"""
 Homegrown timing tools for function calls.
